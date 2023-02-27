@@ -30,6 +30,12 @@ header{
     border-radius: 10px;
 }
 
+.exted_img{
+    background-color: #cfb394;
+    border: #1c344c solid 10px;
+    padding: 10px;
+}
+
 iframe{
     flex: 1;
     border-radius: 10px;

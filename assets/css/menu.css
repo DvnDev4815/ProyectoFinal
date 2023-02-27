@@ -5,7 +5,7 @@
 
     box-shadow: #1c344c 0px 10px;
     border-radius: 10px;
-    height: 290px;
+    height: 310px;
 }
 
 .div_menu h4{
@@ -26,6 +26,7 @@
 }
 
 .div_menu li:hover{
+    text-decoration: underline;
     border: solid #ffffff 1px;
     box-shadow: #1c344c 0px 5px;
 }
