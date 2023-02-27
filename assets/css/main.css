@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+.body{
+    background-color: #ffffff; /* Color de fondo */
+    background-image: linear-gradient(to right, #89e7ff 1px, transparent 1px), linear-gradient(to bottom, #f76c6c 1px, transparent 1px); /* Imagen de fondo */
+    background-size: 20px 20px; /* Tamaño de los cuadros */
+
+    background-position: center; /* Posición de la imagen de fondo */
+}
+
+header{
+    background-color: #c6e070;
+    margin-bottom: 15px;
+    display: flex;
+
+    box-shadow: #1c344c 0px 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.div_info img{
+    /* border: #1c344c solid 2px ; */
+    box-shadow: #1c344c 0px 8px ;
+    border-radius: 10px;
+}
+
+iframe{
+    flex: 1;
+    border-radius: 10px;
+}
+
+.div_main{
+    flex-direction: row;
+    height: 500px;
+    display: flex;
+}
+
+/* Para las demas paginas */
+.div_info{
+    background-color: #91c46c;
+    border-radius: 10px;
+    padding: 20px;
+
+    text-align:justify;
+    box-shadow: #1c344c 0px 5px;
+}
+
+.div_info h3{
+    text-align: center;
+    margin: auto;
+}

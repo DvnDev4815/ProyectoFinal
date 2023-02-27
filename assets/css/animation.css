@@ -1,0 +1,25 @@
+/* Define la animación de fundido */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Aplica la animación a la clase "elemento" */
+  .elemento {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  /* Establece el tiempo de retraso de la animación para evitar parpadeos */
+  body {
+    animation: fadeIn 1s ease-in-out 0.5s 1 normal forwards;
+  }
+  

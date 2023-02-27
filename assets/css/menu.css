@@ -1,0 +1,26 @@
+.div_menu{
+    background-color: #287d7d;
+    padding: 10px;
+    width: 15%;
+
+    box-shadow: #1c344c 0px 10px;
+    border-radius: 10px;
+    height: 290px;
+}
+
+.div_menu h4{
+    color: #ffffff;
+    text-align: center;
+}
+
+.div_menu li{
+    color: #ffffff;
+    cursor: pointer;
+
+    font-style: italic;
+    margin: 10px;
+}
+
+.div_menu li:hover{
+    background-color: #1c344c;
+}
